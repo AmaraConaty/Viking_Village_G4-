@@ -70,3 +70,21 @@ Viking_Village_G4/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 # Temporary auto-generated Android Assets
 Viking_Village_G4/[Aa]ssets/[Ss]treamingAssets/aa.meta
 Viking_Village_G4/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Never ignore DLLs in the FMOD subfolder.
+!Viking_VillageV_G4/[Aa]ssets/Plugins/FMOD/**/lib/*
+
+# Don't ignore images and gizmos used by FMOD in the Unity Editor.
+!Viking_VillageV_G4/[Aa]ssets/Gizmos/FMOD/*
+!Viking_VillageV_G4/[Aa]ssets/Editor Default Resources/FMOD/*
+                    
+# Ignore the Cache folder since it is updated locally.
+Viking_VillageV_G4/[Aa]ssets/Plugins/FMOD/Cache/*
+                    
+# Ignore bank files in the StreamingAssets folder.
+Viking_VillageV_G4/[Aa]ssets/StreamingAssets/**/*.bank
+Viking_VillageV_G4/[Aa]ssets/StreamingAssets/**/*.bank.meta
+                    
+# If the source bank files are kept outside of the StreamingAssets folder then these can be ignored.
+# Log files can be ignored.
+Viking_VillageV_G4fmod_editor.log
