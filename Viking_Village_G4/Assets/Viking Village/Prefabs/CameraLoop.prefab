@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8156970}
   - component: {fileID: 9507824}
   - component: {fileID: 7013998523348207452}
+  - component: {fileID: -1616542582257585130}
   m_Layer: 0
   m_Name: CameraLoop
   m_TagString: MainCamera
@@ -136,3 +137,17 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!114 &-1616542582257585130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
+  ListenerNumber: -1
