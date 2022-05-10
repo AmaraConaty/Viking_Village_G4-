@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{32f71432-e010-4391-8704-19b6092095c0}">
+		<property name="assetPath">
+			<value>GI_back.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.1356916099773242</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5b76a983-7e12-4872-82b9-50e7c9d4150b}</destination>
+		</relationship>
+	</object>
+</objects>
