@@ -66,10 +66,10 @@ MonoBehaviour:
   Path: ../FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637878045040000000
+  lastModified: 637878059230000000
   FileSizes:
   - Name: Desktop
-    Value: 53885760
+    Value: 53677792
   Exists: 1
 --- !u!114 &-4394338647858438088
 MonoBehaviour:
@@ -86,10 +86,10 @@ MonoBehaviour:
   Path: ../FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637878045040000000
+  lastModified: 637878059230000000
   FileSizes:
   - Name: Desktop
-    Value: 1358
+    Value: 1194
   Exists: 1
 --- !u!114 &-4230367727270400858
 MonoBehaviour:
@@ -145,30 +145,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 209
---- !u!114 &-2671357328184627057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/dialouge/Parameter 1
-  m_EditorClassIdentifier: 
-  Name: Parameter 1
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 1773621664
-    data2: 1625738004
-  Type: 1
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
 --- !u!114 &-1465052760892446646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221,14 +197,12 @@ MonoBehaviour:
   - {fileID: 7855228266267920255}
   - {fileID: -1465052760892446646}
   - {fileID: -4230367727270400858}
-  - {fileID: 4659925645163826193}
-  - {fileID: 3149138123579387147}
   EditorParameters: []
   MasterBanks:
   - {fileID: -5662420447437547139}
   StringsBanks:
   - {fileID: -4394338647858438088}
-  cacheTime: 637878045040000000
+  cacheTime: 637878059230000000
   cacheVersion: 10
 --- !u!114 &2374816965999007240
 MonoBehaviour:
@@ -257,34 +231,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 480
---- !u!114 &3149138123579387147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/dialougue/dialouge
-  m_EditorClassIdentifier: 
-  Path: event:/dialougue/dialouge
-  Guid:
-    Data1: 594779622
-    Data2: 1217471868
-    Data3: -266816100
-    Data4: 1981226622
-  Banks:
-  - {fileID: -5662420447437547139}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters:
-  - {fileID: -2671357328184627057}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &3370094726706672821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -339,33 +285,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 59663
---- !u!114 &4659925645163826193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/dialougue/jumping
-  m_EditorClassIdentifier: 
-  Path: event:/dialougue/jumping
-  Guid:
-    Data1: -584111162
-    Data2: 1085919830
-    Data3: -287018078
-    Data4: 2126083900
-  Banks:
-  - {fileID: -5662420447437547139}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1000
 --- !u!114 &5089025099728191491
 MonoBehaviour:
   m_ObjectHideFlags: 0
