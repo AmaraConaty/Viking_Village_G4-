@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{23bc158a-0d07-43a4-a65d-c19503835358}">
+		<property name="assetPath">
+			<value>wet mud footstepts.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>16.981333333333332</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5b76a983-7e12-4872-82b9-50e7c9d4150b}</destination>
+		</relationship>
+	</object>
+</objects>
