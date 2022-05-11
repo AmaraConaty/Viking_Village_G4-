@@ -103,7 +103,11 @@
 	<object class="EventMixerGroup" id="{5f0fd371-d671-4296-bddd-5555071b7b9e}">
 		<property name="volume">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<value>-11.5</value>
+=======
+			<value>-6</value>
+>>>>>>> Stashed changes
 =======
 			<value>-6</value>
 >>>>>>> Stashed changes

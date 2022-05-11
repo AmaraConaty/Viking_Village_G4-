@@ -18,7 +18,7 @@ public class movement : MonoBehaviour
             GetComponent<FMODUnity.StudioEventEmitter>().Play();
             
         }
-        else if (Input.GetButtonUp("Horizontal") && Input.GetButtonUp("Vertical"))
+        if (Input.GetButtonUp("Horizontal"))
         {
             GetComponent<FMODUnity.StudioEventEmitter>().Stop();
         }
