@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class movement : MonoBehaviour
 {
+    
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -18,10 +20,11 @@ public class movement : MonoBehaviour
             GetComponent<FMODUnity.StudioEventEmitter>().Play();
             
         }
-        else if (Input.GetButtonUp("Horizontal") && Input.GetButtonUp("Vertical"))
+        if (Input.GetButtonUp("Vertical"))
         {
             GetComponent<FMODUnity.StudioEventEmitter>().Stop();
+            
         }
-
+        
     }
 }
