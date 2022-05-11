@@ -206,7 +206,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 170986, guid: 5f29f207d858fd245b7befaa18ea3284, type: 3}
       propertyPath: m_TagString
-      value: Player
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 192062, guid: 5f29f207d858fd245b7befaa18ea3284, type: 3}
       propertyPath: m_Name
@@ -218,7 +218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 192062, guid: 5f29f207d858fd245b7befaa18ea3284, type: 3}
       propertyPath: m_TagString
-      value: Player
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 434350, guid: 5f29f207d858fd245b7befaa18ea3284, type: 3}
       propertyPath: m_RootOrder
@@ -321,48 +321,42 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
---- !u!114 &2482112
-MonoBehaviour:
+--- !u!84 &2843503
+RenderTexture:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2482110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e34e512ebaca8451eb40a234f9952cb6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2482113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2482110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 246686424
-      Data2: 1076791352
-      Data3: 1942311580
-      Data4: 520162987
-    Path: event:/Charecter/walking
-  Event: 
-  PlayEvent: 0
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  m_Name: WaterDepthMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 1024
+  m_Height: 1024
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthFormat: 2
+  m_ColorFormat: 142
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!4 &3086686 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 04e0ab4312f682f439b88c86a65672e0,
@@ -748,81 +742,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 18209003}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &21667362
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 21667365}
-  - component: {fileID: 21667364}
-  - component: {fileID: 21667363}
-  m_Layer: 0
-  m_Name: death
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &21667363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 21667362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: Player
-  EventReference:
-    Guid:
-      Data1: -420901506
-      Data2: 1073807956
-      Data3: 882733470
-      Data4: 1563233529
-    Path: event:/death noises
-  Event: 
-  PlayEvent: 3
-  StopEvent: 4
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 572.6416
---- !u!65 &21667364
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 21667362}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 10.621343, y: 1, z: 171.01237}
-  m_Center: {x: -0.04068695, y: 0, z: 23.075966}
---- !u!4 &21667365
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 21667362}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.237625, y: 0, z: 97.281166}
-  m_LocalScale: {x: 100, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &22667894
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4478,10 +4397,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 54c5a00fc75fc854ca53900fe513f638, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 54c5a00fc75fc854ca53900fe513f638, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -6674,6 +6589,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 203343484}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &204789580 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 1180150583}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &204789581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204789580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 10.6
 --- !u!4 &205587270 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4632754132067490, guid: d64f762022b554040b62239f44929a54,
@@ -6787,10 +6738,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 54c5a00fc75fc854ca53900fe513f638, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 54c5a00fc75fc854ca53900fe513f638, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -6859,6 +6806,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 210302383}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &211473516 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 337038620}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &211473517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211473516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 10.6
 --- !u!1001 &211616013
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7617,10 +7600,6 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8917,10 +8896,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -9893,10 +9868,6 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11677,10 +11648,6 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 54c5a00fc75fc854ca53900fe513f638, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 54c5a00fc75fc854ca53900fe513f638, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 54c5a00fc75fc854ca53900fe513f638, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16092,10 +16059,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -17372,10 +17335,6 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18966,6 +18925,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3307d021f8c7f6d41bd96741ce7ac05e, type: 3}
+--- !u!1 &550597167 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 863168456}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &550597168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550597167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 10.6
 --- !u!1001 &551063550
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20100,10 +20095,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -20756,6 +20747,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 605491336}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &608705921 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 33496478}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &608705922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608705921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 10.6
 --- !u!1001 &610749126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24132,15 +24159,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 11b6c022ca54ae4428be5a16a816c940, type: 3}
       propertyPath: m_Layer
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 11b6c022ca54ae4428be5a16a816c940, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 11b6c022ca54ae4428be5a16a816c940, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 11b6c022ca54ae4428be5a16a816c940, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -24148,11 +24171,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 11b6c022ca54ae4428be5a16a816c940, type: 3}
       propertyPath: m_Layer
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 11b6c022ca54ae4428be5a16a816c940, type: 3}
-      propertyPath: m_TagString
-      value: sand
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 11b6c022ca54ae4428be5a16a816c940, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -24160,15 +24179,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 11b6c022ca54ae4428be5a16a816c940, type: 3}
       propertyPath: m_Layer
-      value: 11
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 11b6c022ca54ae4428be5a16a816c940, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 11b6c022ca54ae4428be5a16a816c940, type: 3}
-      propertyPath: m_TagString
-      value: dirt
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 11b6c022ca54ae4428be5a16a816c940, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -24707,10 +24722,6 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -26634,7 +26645,7 @@ GameObject:
   - component: {fileID: 759390582}
   m_Layer: 0
   m_Name: PlanksBoards
-  m_TagString: wood
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -26886,6 +26897,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 764995629}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &763792916 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 1459830788}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &763792917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763792916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 10.6
 --- !u!1001 &764465703
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28430,6 +28477,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 793157909}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &793864402 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 2139812644}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &793864403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793864402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 10.6
 --- !u!1001 &793947296
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28725,10 +28808,6 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -31380,6 +31459,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 863168456}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &863469864 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 1896421741}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &863469865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863469864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 10.6
 --- !u!1001 &863666047
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32176,6 +32291,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 893180085}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &895483305 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 1103718869}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &895483306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895483305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 10.6
 --- !u!1001 &896296872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32231,6 +32382,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 896296872}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &898837228 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: 44eb32dcdfb035f4cb156673d7722d3a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1193349041}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &898837229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898837228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 10.6
 --- !u!1001 &900793888
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33037,10 +33224,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 759390582}
     m_Modifications:
     - target: {fileID: 100016, guid: f6a84f9400019460e81fb3b752b1fe05, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
-    - target: {fileID: 100016, guid: f6a84f9400019460e81fb3b752b1fe05, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967293
       objectReference: {fileID: 0}
@@ -33804,10 +33987,6 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -34630,6 +34809,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 961988040}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &966958542 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 261106251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &966958543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966958542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 10.6
 --- !u!4 &967451298 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4670568205245664, guid: 3307d021f8c7f6d41bd96741ce7ac05e,
@@ -35324,6 +35539,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e2eab48a2a561b4fa3c068ad21b25fe, type: 3}
+--- !u!1 &986480619 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 1041470548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &986480620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986480619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 10.6
 --- !u!1001 &987449561
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36491,10 +36742,6 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 54c5a00fc75fc854ca53900fe513f638, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 54c5a00fc75fc854ca53900fe513f638, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 54c5a00fc75fc854ca53900fe513f638, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -39128,10 +39375,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -40089,10 +40332,6 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -42500,10 +42739,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -43200,10 +43435,6 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -44145,6 +44376,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1220590250}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1225588051 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 533133752}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1225588052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225588051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 10.6
 --- !u!1001 &1226127368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46070,42 +46337,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1279134715}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &1280283131
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: WaterDepthMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 3
-  m_Width: 1024
-  m_Height: 1024
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthFormat: 2
-  m_ColorFormat: 142
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &1281542436
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46427,10 +46658,6 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 54c5a00fc75fc854ca53900fe513f638, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 54c5a00fc75fc854ca53900fe513f638, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 54c5a00fc75fc854ca53900fe513f638, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -50169,10 +50396,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -50369,10 +50592,6 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -50696,28 +50915,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 759390582}
     m_Modifications:
     - target: {fileID: 100000, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967292
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -50725,11 +50932,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -50737,275 +50940,95 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100006, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967293
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100008, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
-    - target: {fileID: 100008, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967293
-      objectReference: {fileID: 0}
-    - target: {fileID: 100046, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100046, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100046, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967292
       objectReference: {fileID: 0}
     - target: {fileID: 100048, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100048, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
-    - target: {fileID: 100048, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967292
-      objectReference: {fileID: 0}
-    - target: {fileID: 100050, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100050, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100050, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967292
       objectReference: {fileID: 0}
     - target: {fileID: 100052, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100052, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
-    - target: {fileID: 100052, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967292
-      objectReference: {fileID: 0}
-    - target: {fileID: 100054, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100054, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100054, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967292
       objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100056, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
-    - target: {fileID: 100056, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967292
-      objectReference: {fileID: 0}
-    - target: {fileID: 100058, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100058, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100058, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967292
       objectReference: {fileID: 0}
     - target: {fileID: 100060, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100060, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
-    - target: {fileID: 100060, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967292
-      objectReference: {fileID: 0}
-    - target: {fileID: 100062, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100062, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100062, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967292
       objectReference: {fileID: 0}
     - target: {fileID: 100064, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100064, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
-    - target: {fileID: 100064, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967292
-      objectReference: {fileID: 0}
-    - target: {fileID: 100066, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100066, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100066, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967292
       objectReference: {fileID: 0}
     - target: {fileID: 100068, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100068, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
-    - target: {fileID: 100068, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967292
-      objectReference: {fileID: 0}
-    - target: {fileID: 100070, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100070, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100070, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967292
       objectReference: {fileID: 0}
     - target: {fileID: 100072, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100072, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
-    - target: {fileID: 100072, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967292
-      objectReference: {fileID: 0}
-    - target: {fileID: 100074, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100074, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100074, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967292
       objectReference: {fileID: 0}
     - target: {fileID: 100076, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100076, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
-    - target: {fileID: 100076, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967292
-      objectReference: {fileID: 0}
-    - target: {fileID: 100078, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100078, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100078, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967292
       objectReference: {fileID: 0}
     - target: {fileID: 100112, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100112, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
-    - target: {fileID: 100112, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967293
-      objectReference: {fileID: 0}
-    - target: {fileID: 100114, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100114, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100114, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967293
       objectReference: {fileID: 0}
     - target: {fileID: 100116, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100116, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
-    - target: {fileID: 100116, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967293
-      objectReference: {fileID: 0}
-    - target: {fileID: 100118, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100118, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100118, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -51013,23 +51036,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100120, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100120, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100120, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967293
-      objectReference: {fileID: 0}
-    - target: {fileID: 100122, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 100122, guid: ce36f87d0964b71438a24600649180ba, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100122, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -52350,10 +52361,6 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -53689,10 +53696,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 54c5a00fc75fc854ca53900fe513f638, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 54c5a00fc75fc854ca53900fe513f638, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -54121,6 +54124,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1522298408}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1524100068 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 1449735227}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1524100069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524100068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 10.6
 --- !u!4 &1526998483 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400012, guid: f632ee341faffa64ebfa4e2c74d6e422,
@@ -55248,10 +55287,6 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 54c5a00fc75fc854ca53900fe513f638, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 54c5a00fc75fc854ca53900fe513f638, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 54c5a00fc75fc854ca53900fe513f638, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -57648,10 +57683,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -59171,10 +59202,6 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -61324,14 +61351,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2482109}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1763871028
+--- !u!1 &1768836668 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 543014784}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1768836669
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1763871027}
-  m_Enabled: 0
+  m_GameObject: {fileID: 1768836668}
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
@@ -61339,40 +61372,57 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 78000987
-      Data2: 1213928103
-      Data3: 305140366
-      Data4: -11630248
-    Path: event:/Charecter/terrain
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
   Event: 
-  PlayEvent: 0
-  StopEvent: 0
+  PlayEvent: 1
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
   Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
---- !u!114 &1763871029
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 10.6
+--- !u!1 &1772634391 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 931334577}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1772634392
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1763871027}
+  m_GameObject: {fileID: 1772634391}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 876ae7bef6dde425f8d9ff9245d2c171, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EventPath: event:/Charecter/terrain
-  m_wood: 0
-  m_water: 0
-  m_dirt: 0
-  m_sand: 0
-  m_StepDistance: 2
-  m_Debug: 0
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 10.6
 --- !u!1001 &1772831767
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64478,10 +64528,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -65330,10 +65376,6 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -67821,10 +67863,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 54c5a00fc75fc854ca53900fe513f638, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 54c5a00fc75fc854ca53900fe513f638, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -68359,10 +68397,6 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -70286,10 +70320,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -70395,6 +70425,42 @@ Transform:
   m_Father: {fileID: 1612780274}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2038360708 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: 44eb32dcdfb035f4cb156673d7722d3a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1169650446}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2038360709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038360708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 10.650698
 --- !u!1 &2040986774
 GameObject:
   m_ObjectHideFlags: 0
@@ -71634,6 +71700,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2066193502}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2073949061 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 890518648}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2073949062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073949061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 10.6
 --- !u!1001 &2074478364
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73202,10 +73304,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 54c5a00fc75fc854ca53900fe513f638, type: 3}
-      propertyPath: m_TagString
-      value: wood
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 54c5a00fc75fc854ca53900fe513f638, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -73569,10 +73667,6 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -74454,10 +74548,6 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
-      propertyPath: m_TagString
-      value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -75362,11 +75452,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water
-      objectReference: {fileID: 0}
-    - target: {fileID: 6520459608929871533, guid: d1815a87ce08fec4a946a23dda29aadb,
-        type: 3}
-      propertyPath: m_TagString
-      value: water
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1815a87ce08fec4a946a23dda29aadb, type: 3}
