@@ -117,7 +117,7 @@ public class footsteps : MonoBehaviour
 	{
 		//Defaults
 		m_water = 0.0f;
-		m_dirt = 1.0f;
+		m_dirt = 0.0f;
 		m_sand = 0.0f;
 		m_wood = 0.0f;
 
