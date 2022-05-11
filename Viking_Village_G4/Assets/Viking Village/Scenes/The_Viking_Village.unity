@@ -6734,6 +6734,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 210302383}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &211473516 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 337038620}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &211473517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211473516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &211616013
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11903,6 +11939,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 362173197}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &363426335
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterDepthMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 1024
+  m_Height: 1024
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthFormat: 2
+  m_ColorFormat: 142
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &366039489
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18817,6 +18889,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3307d021f8c7f6d41bd96741ce7ac05e, type: 3}
+--- !u!1 &550597167 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 863168456}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &550597168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550597167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &551063550
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20603,6 +20711,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 605491336}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &608705921 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 33496478}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &608705922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608705921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &610749126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26717,6 +26861,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 764995629}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &763792916 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 1459830788}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &763792917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763792916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &764465703
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28261,6 +28441,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 793157909}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &793864402 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 2139812644}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &793864403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793864402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &793947296
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31207,6 +31423,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 863168456}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &863469864 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 1896421741}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &863469865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863469864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &863666047
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32003,6 +32255,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 893180085}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &895483305 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 1103718869}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &895483306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895483305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &896296872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34449,6 +34737,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 961988040}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &966958542 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 261106251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &966958543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966958542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &967451298 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4670568205245664, guid: 3307d021f8c7f6d41bd96741ce7ac05e,
@@ -35143,6 +35467,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e2eab48a2a561b4fa3c068ad21b25fe, type: 3}
+--- !u!1 &986480619 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 1041470548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &986480620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986480619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &987449561
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43980,6 +44340,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1220590250}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1225588051 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 533133752}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1225588052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225588051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1226127368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53692,6 +54088,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1522298408}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1524100068 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 1449735227}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1524100069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524100068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &1526998483 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400012, guid: f632ee341faffa64ebfa4e2c74d6e422,
@@ -60883,6 +61315,78 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2482109}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1768836668 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 543014784}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1768836669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768836668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &1772634391 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 931334577}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1772634392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772634391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1772831767
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69885,6 +70389,42 @@ Transform:
   m_Father: {fileID: 1612780274}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2038360708 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: 44eb32dcdfb035f4cb156673d7722d3a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1169650446}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2038360709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038360708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2040986774
 GameObject:
   m_ObjectHideFlags: 0
@@ -71124,6 +71664,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2066193502}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2073949061 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
+    type: 3}
+  m_PrefabInstance: {fileID: 890518648}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2073949062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073949061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1062245182
+      Data2: 1275877264
+      Data3: -481419329
+      Data4: 1161355587
+    Path: event:/Ambience/torches
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &2074478364
 PrefabInstance:
   m_ObjectHideFlags: 0
