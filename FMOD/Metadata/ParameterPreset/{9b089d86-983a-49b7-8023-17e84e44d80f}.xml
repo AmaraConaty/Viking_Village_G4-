@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{9b089d86-983a-49b7-8023-17e84e44d80f}">
+		<property name="name">
+			<value>dirt</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e4fe2de4-215b-4a5e-9aa5-ba4e75db2a10}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{4f9fb648-67e8-4296-b644-05b093f3d14c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{4f9fb648-67e8-4296-b644-05b093f3d14c}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

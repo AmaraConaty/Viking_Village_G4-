@@ -60,7 +60,7 @@
 	<object class="MarkerTrack" id="{093b1527-7a27-4754-b9ca-afcc91b27b21}" />
 	<object class="GroupTrack" id="{03439b0f-f832-453a-b3df-1c1024790861}">
 		<relationship name="modules">
-			<destination>{b483c1d0-c3e6-4d1c-ad9c-930c58eb9bf8}</destination>
+			<destination>{955f1737-73f3-4b9c-9270-61cf4463e770}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{b49bde67-edbf-48c9-987a-77cb858d3050}</destination>
@@ -68,10 +68,7 @@
 	</object>
 	<object class="Timeline" id="{0c51643c-98aa-4eb5-b221-d2aac3554c14}">
 		<relationship name="modules">
-			<destination>{b483c1d0-c3e6-4d1c-ad9c-930c58eb9bf8}</destination>
-		</relationship>
-		<relationship name="markers">
-			<destination>{f0f2079f-174e-4a4e-a294-957910f11df8}</destination>
+			<destination>{955f1737-73f3-4b9c-9270-61cf4463e770}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{47fc9b1a-c7f1-49f3-9574-e97526c54a92}">
@@ -91,7 +88,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ffd4f3aa-2cc3-42e1-b838-2ae33c3fd2d3}" />
-	<object class="SingleSound" id="{b483c1d0-c3e6-4d1c-ad9c-930c58eb9bf8}">
+	<object class="SingleSound" id="{955f1737-73f3-4b9c-9270-61cf4463e770}">
 		<property name="length">
 			<value>65.504000000000005</value>
 		</property>
@@ -111,20 +108,6 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{47fc9b1a-c7f1-49f3-9574-e97526c54a92}</destination>
-		</relationship>
-	</object>
-	<object class="LoopRegion" id="{f0f2079f-174e-4a4e-a294-957910f11df8}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="length">
-			<value>65.504000000000005</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{0c51643c-98aa-4eb5-b221-d2aac3554c14}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{093b1527-7a27-4754-b9ca-afcc91b27b21}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{0102e221-39fe-4a73-99ee-3a7402ec5ccc}">
