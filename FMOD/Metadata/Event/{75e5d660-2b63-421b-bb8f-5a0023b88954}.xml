@@ -98,15 +98,15 @@
 		<relationship name="sounds">
 			<destination>{2b163774-75f1-4b15-8d2f-3a48256545bf}</destination>
 			<destination>{43688c8b-8ad1-4137-9764-42d873b0443e}</destination>
-			<destination>{78255e28-ef8c-4246-a80c-fef9552b4e93}</destination>
-		</relationship>
-		<relationship name="playPercentages">
-			<destination>{79aa79df-4f16-433c-9f15-0e41976210a2}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{5f0fd371-d671-4296-bddd-5555071b7b9e}">
 		<property name="volume">
+<<<<<<< Updated upstream
 			<value>-11.5</value>
+=======
+			<value>-6</value>
+>>>>>>> Stashed changes
 		</property>
 		<property name="name">
 			<value>outside walk</value>
@@ -137,22 +137,6 @@
 	<object class="SingleSound" id="{43688c8b-8ad1-4137-9764-42d873b0443e}">
 		<relationship name="audioFile">
 			<destination>{f0609ee0-d35c-42d3-b335-3948a230fbff}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{78255e28-ef8c-4246-a80c-fef9552b4e93}">
-		<property name="startOffset">
-			<value>41.5</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{23bc158a-0d07-43a4-a65d-c19503835358}</destination>
-		</relationship>
-	</object>
-	<object class="PlayPercentage" id="{79aa79df-4f16-433c-9f15-0e41976210a2}">
-		<property name="percentage">
-			<value>10</value>
-		</property>
-		<relationship name="sound">
-			<destination>{78255e28-ef8c-4246-a80c-fef9552b4e93}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{e68028ea-589c-45a8-9f4f-be1959ed9b30}">

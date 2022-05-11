@@ -6,6 +6,10 @@ TagManager:
   tags:
   - killwall
   - floor
+  - water
+  - wood
+  - sand
+  - dirt
   layers:
   - Default
   - TransparentFX
