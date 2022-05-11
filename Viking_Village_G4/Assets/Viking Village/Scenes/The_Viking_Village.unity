@@ -206,7 +206,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 170986, guid: 5f29f207d858fd245b7befaa18ea3284, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 192062, guid: 5f29f207d858fd245b7befaa18ea3284, type: 3}
       propertyPath: m_Name
@@ -218,7 +218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 192062, guid: 5f29f207d858fd245b7befaa18ea3284, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 434350, guid: 5f29f207d858fd245b7befaa18ea3284, type: 3}
       propertyPath: m_RootOrder
@@ -44731,6 +44731,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1220590250}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &1225338741
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterDepthMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 1024
+  m_Height: 1024
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthFormat: 2
+  m_ColorFormat: 142
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1 &1225588051 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422,
@@ -54647,6 +54683,81 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1041470548}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1528733020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1528733023}
+  - component: {fileID: 1528733022}
+  - component: {fileID: 1528733021}
+  m_Layer: 0
+  m_Name: death wall
+  m_TagString: killwall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1528733021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528733020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -420901506
+      Data2: 1073807956
+      Data3: 882733470
+      Data4: 1563233529
+    Path: event:/death noises
+  Event: 
+  PlayEvent: 3
+  StopEvent: 4
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 532.43243
+  OverrideMaxDistance: 532.43243
+--- !u!65 &1528733022
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528733020}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.099733, y: 0, z: 2.2767646}
+  m_Center: {x: -2.3205001, y: 0, z: 0.6383823}
+--- !u!4 &1528733023
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528733020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 150, y: -0.5, z: -10.498118}
+  m_LocalScale: {x: 100, y: 1, z: 100}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1531215242
 PrefabInstance:
   m_ObjectHideFlags: 0
