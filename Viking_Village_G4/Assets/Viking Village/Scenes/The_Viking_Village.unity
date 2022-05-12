@@ -39322,7 +39322,7 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 1
-  OverrideMinDistance: 20
+  OverrideMinDistance: 690
   OverrideMaxDistance: 690
 --- !u!4 &1056219269 stripped
 Transform:
