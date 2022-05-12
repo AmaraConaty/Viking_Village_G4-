@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{aedd8f40-c220-49c0-913c-3ed10b87281a}">
+		<property name="assetPath">
+			<value>medeval city sounds.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>258</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5b76a983-7e12-4872-82b9-50e7c9d4150b}</destination>
+		</relationship>
+	</object>
+</objects>
