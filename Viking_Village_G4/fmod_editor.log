@@ -2,12 +2,11 @@
 [LOG] Manager::init                            : maxchannels = 256 studioflags = 00000006 flags 00000000 extradriverdata 0x0.
 [LOG] SystemI::init                            : Initialize version=20204 (121702), maxchannels=256, flags=0x00020000
 [LOG] SystemI::setOutputInternal               : Setting output to 'FMOD Core Audio Output'
-[LOG] OutputCoreAudio::init                    : Output running 2 channels at 44100Hz sample rate.
+[LOG] OutputCoreAudio::init                    : Output running 2 channels at 48000Hz sample rate.
 [LOG] OutputCoreAudio::init                    : Maximum hardware read size: 512 samples, Software buffer size: 512 samples, Number of software buffers: 4.
-[LOG] SystemI::init                            : Output requires a sample rate of 44100Hz, resampling will occur.
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0x7fbf81796808 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0x7f85c8373208 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -18,3 +17,1393 @@
 [LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
 [LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d4169de8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d4169de8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d41cd3e8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d41cd3e8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85e06d0d68
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85e06d0d68
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d4169de8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d4169de8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d41cd3e8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d41cd3e8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85e06d0d68
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85e06d0d68
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85e0232968 : node = 0x7f85d415bed0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85e0232968
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d415bfe0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='grass running', format=5, channels=2, frequency=48000, lengthbytes=324832, lengthpcm=1243648, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.310608.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85e0232968
+[LOG] SoundI::release                          : grass running (0x7f85e0232968)
+[LOG] SoundI::release                          :     grass running (0x7f85df6e2138)
+[LOG] SoundI::release                          :     grass running (0x7f85df64f2c8)
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85df64f2c8 : node = 0x7f85df6ed5a0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85df64f2c8
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85df6ed6b0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='dirt and grass footsteps', format=5, channels=1, frequency=48000, lengthbytes=124512, lengthpcm=832000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.294098.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85df64f2c8
+[LOG] SoundI::release                          : 274471__nick121087__dog-barking (0x7f85e0610898)
+[LOG] SoundI::release                          :     274471__nick121087__dog-barking (0x7f85e062ec38)
+[LOG] SoundI::release                          :     274471__nick121087__dog-barking (0x7f85e06d0d68)
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85d370d918 : node = 0x7f85d3752a50
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d370d918
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d3752b60
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='grass running', format=5, channels=2, frequency=48000, lengthbytes=324832, lengthpcm=1243648, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.310608.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d370d918
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85e2acf938 : node = 0x7f85dc642c90
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85e2acf938
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85dc642da0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SoundI::release                          : dirt and grass footsteps (0x7f85df64f2c8)
+[LOG] SoundI::release                          :         dirt and grass footsteps (0x7f85d3776118)
+[LOG] SoundI::release                          :         dirt and grass footsteps (0x7f85d37730f8)
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='dirt and grass footsteps', format=5, channels=1, frequency=48000, lengthbytes=124512, lengthpcm=832000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.294098.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85e2acf938
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85df64f2c8 : node = 0x7f85df6ed5a0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] SoundI::release                          : grass running (0x7f85d370d918)
+[LOG] AsyncThread::threadFunc                  :     Starting Asynchronous operation on sound 0x7f85df64f2c8
+[LOG] SystemI::createSoundInternal             :         Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :         exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :         exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :         exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :         exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :         exinfo->inclusionlist      = 0x7f85df6ed6b0
+[LOG] SystemI::createSoundInternal             :         exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :         exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :         exinfo->initialseekpostype = 1
+[LOG] SoundI::release                          :     grass running (0x7f85dc635118)
+[LOG] SoundI::release                          :         grass running (0x7f85e2ad2158)
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='grass running', format=5, channels=2, frequency=48000, lengthbytes=324832, lengthpcm=1243648, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.310608.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85df64f2c8
+[LOG] SoundI::release                          : dirt and grass footsteps (0x7f85e2acf938)
+[LOG] SoundI::release                          :     dirt and grass footsteps (0x7f85d37a7448)
+[LOG] SoundI::release                          :     dirt and grass footsteps (0x7f85d37730f8)
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85d376f538 : node = 0x7f85d37a7590
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d376f538
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d37a76a0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='dirt and grass footsteps', format=5, channels=1, frequency=48000, lengthbytes=124512, lengthpcm=832000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.294098.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d376f538
+[LOG] SoundI::release                          : grass running (0x7f85df64f2c8)
+[LOG] SoundI::release                          :     grass running (0x7f85d37b74a8)
+[LOG] SoundI::release                          :     grass running (0x7f85e06d68a8)
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85d450f3b8 : node = 0x7f85d4510490
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d450f3b8
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d45105a0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='grass running', format=5, channels=2, frequency=48000, lengthbytes=324832, lengthpcm=1243648, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.310608.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d450f3b8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d416c458
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d416c458
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d416bba8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d416bba8
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85d3776118 : node = 0x7f85d37a4f90
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d3776118
+[LOG] SoundI::release                          : dirt and grass footsteps (0x7f85d376f538)
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :         exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :         exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :         exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :         exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :         exinfo->inclusionlist      = 0x7f85d37a50a0
+[LOG] SystemI::createSoundInternal             :         exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :         exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :         exinfo->initialseekpostype = 1
+[LOG] SoundI::release                          :         dirt and grass footsteps (0x7f85e0271018)
+[LOG] SoundI::release                          :         dirt and grass footsteps (0x7f85d41c0d28)
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='dirt and grass footsteps', format=5, channels=1, frequency=48000, lengthbytes=124512, lengthpcm=832000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.294098.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d3776118
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85e0271018 : node = 0x7f85d41f2b10
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] SoundI::release                          : grass running (0x7f85d450f3b8)
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85e0271018
+[LOG] SystemI::createSoundInternal             :         Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :         exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :         exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :         exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :         exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :         exinfo->inclusionlist      = 0x7f85d41f2c20
+[LOG] SystemI::createSoundInternal             :         exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :         exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :         exinfo->initialseekpostype = 1
+[LOG] SoundI::release                          :     grass running (0x7f85d37b74a8)
+[LOG] SoundI::release                          :         grass running (0x7f85d37730f8)
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='grass running', format=5, channels=2, frequency=48000, lengthbytes=324832, lengthpcm=1243648, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.310608.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85e0271018
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85e022a998 : node = 0x7f85e022ab50
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] SoundI::release                          : dirt and grass footsteps (0x7f85d3776118)
+[LOG] AsyncThread::threadFunc                  :     Starting Asynchronous operation on sound 0x7f85e022a998
+[LOG] SystemI::createSoundInternal             :         Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SoundI::release                          :     dirt and grass footsteps (0x7f85dc635118)
+[LOG] SoundI::release                          :         dirt and grass footsteps (0x7f85e2ad2158)
+[LOG] SystemI::createSoundInternal             :         exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85e022ac60
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='dirt and grass footsteps', format=5, channels=1, frequency=48000, lengthbytes=124512, lengthpcm=832000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.294098.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85e022a998
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85df64f2c8 : node = 0x7f85df6ed5a0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85df64f2c8
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85df6ed6b0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='grass running', format=5, channels=2, frequency=48000, lengthbytes=324832, lengthpcm=1243648, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.310608.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85df64f2c8
+[LOG] SoundI::release                          : grass running (0x7f85e0271018)
+[LOG] SoundI::release                          :     grass running (0x7f85d37b74a8)
+[LOG] SoundI::release                          :     grass running (0x7f85d370d918)
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85d37b74a8 : node = 0x7f85d37c5720
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] SoundI::release                          : dirt and grass footsteps (0x7f85e022a998)
+[LOG] SoundI::release                          :     dirt and grass footsteps (0x7f85e061fd58)
+[LOG] SoundI::release                          :     dirt and grass footsteps (0x7f85d37a73a8)
+[LOG] AsyncThread::threadFunc                  :     Starting Asynchronous operation on sound 0x7f85d37b74a8
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d37c5830
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='dirt and grass footsteps', format=5, channels=1, frequency=48000, lengthbytes=124512, lengthpcm=832000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.294098.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d37b74a8
+[LOG] SoundI::release                          : grass running (0x7f85df64f2c8)
+[LOG] SoundI::release                          :     grass running (0x7f85e06d0d68)
+[LOG] SoundI::release                          :     grass running (0x7f85d37748c8)
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85d3776118 : node = 0x7f85d37a4f90
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d3776118
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d37a50a0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='grass running', format=5, channels=2, frequency=48000, lengthbytes=324832, lengthpcm=1243648, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.310608.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d3776118
+[LOG] SoundI::release                          : dirt and grass footsteps (0x7f85d37b74a8)
+[LOG] SoundI::release                          :     dirt and grass footsteps (0x7f85c77c99d8)
+[LOG] SoundI::release                          :     dirt and grass footsteps (0x7f85c779bb08)
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85df64f2c8 : node = 0x7f85df6ed5a0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85df64f2c8
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85df6ed6b0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='dirt and grass footsteps', format=5, channels=1, frequency=48000, lengthbytes=124512, lengthpcm=832000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.294098.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85df64f2c8
+[LOG] SoundI::release                          : grass running (0x7f85d3776118)
+[LOG] SoundI::release                          :     grass running (0x7f85dc635118)
+[LOG] SoundI::release                          :     grass running (0x7f85e2ad2158)
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85d4510478 : node = 0x7f85d45161f0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d4510478
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d4516300
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='grass running', format=5, channels=2, frequency=48000, lengthbytes=324832, lengthpcm=1243648, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.310608.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d4510478
+[LOG] SoundI::release                          : dirt and grass footsteps (0x7f85df64f2c8)
+[LOG] SoundI::release                          :     dirt and grass footsteps (0x7f85d37b74a8)
+[LOG] SoundI::release                          :     dirt and grass footsteps (0x7f85d37730f8)
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85df64f2c8 : node = 0x7f85df6ed5a0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85df64f2c8
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85df6ed6b0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='dirt and grass footsteps', format=5, channels=1, frequency=48000, lengthbytes=124512, lengthpcm=832000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.294098.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85df64f2c8
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000dc1194c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x175ba2cbc
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x175ba2d73
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x175ba2da0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x175ba2e3e
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7f85d37a7248
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Jumping_5', format=5, channels=1, frequency=48000, lengthbytes=6240, lengthpcm=48000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.891251.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000dc1194c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x175ba2cbc
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x175ba2d73
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x175ba2da0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x175ba2e3e
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7f85d37a7248
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Jumping_8', format=5, channels=1, frequency=48000, lengthbytes=4608, lengthpcm=36829, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.850902.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000dc1194c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x175ba2cbc
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x175ba2d73
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x175ba2da0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x175ba2e3e
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7f85d37a7248
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Jumping_2', format=5, channels=1, frequency=48000, lengthbytes=4544, lengthpcm=32026, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.891251.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000dc1194c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x175ba2cbc
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x175ba2d73
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x175ba2da0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x175ba2e3e
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7f85d37a7248
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Jumping_1', format=5, channels=1, frequency=48000, lengthbytes=3520, lengthpcm=31200, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.891251.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000dc1194c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x175ba2cbc
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x175ba2d73
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x175ba2da0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x175ba2e3e
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7f85d37a7248
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Jumping_9', format=5, channels=1, frequency=48000, lengthbytes=3840, lengthpcm=24000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.891251.
+[LOG] SoundI::release                          : grass running (0x7f85d4510478)
+[LOG] SoundI::release                          :     grass running (0x7f85d41c0d28)
+[LOG] SoundI::release                          :     grass running (0x7f85e0273f98)
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85d41c0d28 : node = 0x7f85d41f2990
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d41c0d28
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d41f2aa0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='grass running', format=5, channels=2, frequency=48000, lengthbytes=324832, lengthpcm=1243648, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.310608.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d41c0d28
+[LOG] SoundI::release                          : dirt and grass footsteps (0x7f85df64f2c8)
+[LOG] SoundI::release                          :     dirt and grass footsteps (0x7f85d41f2008)
+[LOG] SoundI::release                          :     dirt and grass footsteps (0x7f85d41f2198)
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85e06d68a8 : node = 0x7f85d3770430
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85e06d68a8
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d3770540
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='dirt and grass footsteps', format=5, channels=1, frequency=48000, lengthbytes=124512, lengthpcm=832000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.294098.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85e06d68a8
+[LOG] SoundI::release                          : grass running (0x7f85d41c0d28)
+[LOG] SoundI::release                          :     grass running (0x7f85d37e7d18)
+[LOG] SoundI::release                          :     grass running (0x7f85d37e7ea8)
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85dc635118 : node = 0x7f85e2ac7b50
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85dc635118
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85e2ac7c60
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='grass running', format=5, channels=2, frequency=48000, lengthbytes=324832, lengthpcm=1243648, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.310608.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85dc635118
+[LOG] SoundI::release                          : dirt and grass footsteps (0x7f85e06d68a8)
+[LOG] SoundI::release                          :     dirt and grass footsteps (0x7f85d4162cf8)
+[LOG] SoundI::release                          :     dirt and grass footsteps (0x7f85e02749d8)
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85d37aa9f8 : node = 0x7f85d37aabb0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d37aa9f8
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d37aacc0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='dirt and grass footsteps', format=5, channels=1, frequency=48000, lengthbytes=124512, lengthpcm=832000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.294098.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d37aa9f8
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85df64f2c8 : node = 0x7f85df6ed5a0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85df64f2c8
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85df6ed6b0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='274471__nick121087__dog-barking', format=5, channels=2, frequency=48000, lengthbytes=211584, lengthpcm=901120, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.879748.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85df64f2c8
+[LOG] SoundI::release                          : grass running (0x7f85dc635118)
+[LOG] SoundI::release                          :     grass running (0x7f85d41c0d28)
+[LOG] SoundI::release                          :     grass running (0x7f85d4184fd8)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000dc1194c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x175ba2cbc
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x175ba2d73
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x175ba2da0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x175ba2e3e
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7f85df6e5a68
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='drown bubbles', format=5, channels=1, frequency=48000, lengthbytes=60544, lengthpcm=360097, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.280304.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000dc1194c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x175ba2cbc
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x175ba2d73
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x175ba2da0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x175ba2e3e
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7f85df6e5a68
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='drown voice', format=5, channels=1, frequency=48000, lengthbytes=19648, lengthpcm=120000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.553314.
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85dc635118 : node = 0x7f85e2ad1760
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85dc635118
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85e2ad1870
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='grass running', format=5, channels=2, frequency=48000, lengthbytes=324832, lengthpcm=1243648, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.310608.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85dc635118
+[LOG] SoundI::release                          : dirt and grass footsteps (0x7f85d37aa9f8)
+[LOG] SoundI::release                          :     dirt and grass footsteps (0x7f85d41629f8)
+[LOG] SoundI::release                          :     dirt and grass footsteps (0x7f85d4162b88)
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85d37a2df8 : node = 0x7f85d3762ff0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d37a2df8
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d3763100
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='dirt and grass footsteps', format=5, channels=1, frequency=48000, lengthbytes=124512, lengthpcm=832000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.294098.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d37a2df8
+[LOG] SoundI::release                          : grass running (0x7f85dc635118)
+[LOG] SoundI::release                          :     grass running (0x7f85c77c99d8)
+[LOG] SoundI::release                          :     grass running (0x7f85c779bb08)
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85d3774418 : node = 0x7f85d37896e0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d3774418
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d37897f0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='grass running', format=5, channels=2, frequency=48000, lengthbytes=324832, lengthpcm=1243648, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.310608.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d3774418
+[LOG] SoundI::release                          : dirt and grass footsteps (0x7f85d37a2df8)
+[LOG] SoundI::release                          :     dirt and grass footsteps (0x7f85c779fc38)
+[LOG] SoundI::release                          :     dirt and grass footsteps (0x7f85c77fe4e8)
+[LOG] SoundI::release                          : grass running (0x7f85d3774418)
+[LOG] SoundI::release                          :     grass running (0x7f85dc635118)
+[LOG] SoundI::release                          :     grass running (0x7f85e2ad2158)
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85e06d68a8 : node = 0x7f85d37e8030
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85e06d68a8
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d37e8140
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85d3789578 : node = 0x7f85d37aaa10
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='176563__deleted-user-3277771__houshold-fire', format=5, channels=2, frequency=48000, lengthbytes=1072192, lengthpcm=5259264, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.165152.
+[LOG] SystemI::createSound                     :     filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85d3774588 : node = 0x7f85d3786590
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 1
+[LOG] SystemI::createSound                     :     filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85d450f3b8 : node = 0x7f85d4510490
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 2
+[LOG] SystemI::createSound                     :     filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85d4514428 : node = 0x7f85d45145e0
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 3
+[LOG] SystemI::createSound                     :     filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85d4514898 : node = 0x7f85d4514a50
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 4
+[LOG] SystemI::createSound                     :     filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85d4515028 : node = 0x7f85d45151e0
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 5
+[LOG] SystemI::createSound                     :     filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85d4515498 : node = 0x7f85d4515650
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 6
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85e06d68a8
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85d4515908 : node = 0x7f85d4515ac0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 6
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d3789578
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d37aab20
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85e2aa82e8 : node = 0x7f85e2aa9b00
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 7
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='19 - Track19', format=5, channels=2, frequency=48000, lengthbytes=2748352, lengthpcm=8827520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.449463.
+[LOG] SystemI::createSound                     :     filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85e02314b8 : node = 0x7f85d4184500
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 8
+[LOG] SystemI::createSound                     :     filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85d41f2008 : node = 0x7f85e0229ce0
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 9
+[LOG] SystemI::createSound                     :     filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85d41f2528 : node = 0x7f85d415bed0
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 10
+[LOG] SystemI::createSound                     :     filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85d41f2858 : node = 0x7f85d4184f20
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 11
+[LOG] SystemI::createSound                     :     filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85d4162928 : node = 0x7f85e0274d50
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 12
+[LOG] SystemI::createSound                     :     filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85d4162c58 : node = 0x7f85d4162e10
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 13
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d3789578
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85d37a2df8 : node = 0x7f85d37a2fb0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 13
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d3774588
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d37866a0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85c779fc38 : node = 0x7f85df682d00
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 14
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='176563__deleted-user-3277771__houshold-fire', format=5, channels=2, frequency=48000, lengthbytes=1072192, lengthpcm=5259264, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.165152.
+[LOG] SystemI::createSound                     :     filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85d44215d8 : node = 0x7f85d4422cd0
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 15
+[LOG] SystemI::createSound                     :     filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85d440bbf8 : node = 0x7f85d4416b70
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 16
+[LOG] SystemI::createSound                     :     filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85d4416e28 : node = 0x7f85d4416fe0
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 17
+[LOG] SystemI::createSound                     :     filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85d4417298 : node = 0x7f85d4417450
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 18
+[LOG] SystemI::createSound                     :     filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85e2acf938 : node = 0x7f85e2ab5700
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 19
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d3774588
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85e2ac9828 : node = 0x7f85e2ac7b50
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 19
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d450f3b8
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85e2a93fe8 : node = 0x7f85e2ad0080
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 20
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSound                     :     filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d45105a0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85e0231a38 : node = 0x7f85e02749e0
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 21
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='19 - Track19', format=5, channels=2, frequency=48000, lengthbytes=2748352, lengthpcm=8827520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.449463.
+[LOG] SystemI::createSound                     :     filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85e0231bd8 : node = 0x7f85e024b150
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 22
+[LOG] SystemI::createSound                     :     filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85d46069f8 : node = 0x7f85d4604c00
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 23
+[LOG] SystemI::createSound                     :     filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85d46159c8 : node = 0x7f85d4615b80
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 24
+[LOG] SystemI::createSound                     :     filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85d4615e38 : node = 0x7f85d4615ff0
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 25
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d450f3b8
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85c779bb08 : node = 0x7f85df61ed00
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d4514428
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d45146f0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 25
+[LOG] SystemI::createSound                     :     filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85df6e7d08 : node = 0x7f85df6a1c20
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 26
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='176563__deleted-user-3277771__houshold-fire', format=5, channels=2, frequency=48000, lengthbytes=1072192, lengthpcm=5259264, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.165152.
+[LOG] SystemI::createSound                     :     filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85df6d6b98 : node = 0x7f85df65e040
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 27
+[LOG] SystemI::createSound                     :     filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85c77ff708 : node = 0x7f85df651d80
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85dc65bea8.  list count = 28
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d4514428
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d4514898
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d4514b60
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='19 - Track19', format=5, channels=2, frequency=48000, lengthbytes=2748352, lengthpcm=8827520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.449463.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d4514898
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d4515028
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d45152f0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='176563__deleted-user-3277771__houshold-fire', format=5, channels=2, frequency=48000, lengthbytes=1072192, lengthpcm=5259264, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.165152.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d4515028
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d4515498
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d4515760
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='19 - Track19', format=5, channels=2, frequency=48000, lengthbytes=2748352, lengthpcm=8827520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.449463.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d4515498
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d4515908
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d4515bd0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='176563__deleted-user-3277771__houshold-fire', format=5, channels=2, frequency=48000, lengthbytes=1072192, lengthpcm=5259264, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.165152.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d4515908
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85e2aa82e8
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85e2aa9c10
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='19 - Track19', format=5, channels=2, frequency=48000, lengthbytes=2748352, lengthpcm=8827520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.449463.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85e2aa82e8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85e02314b8
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d4184610
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='176563__deleted-user-3277771__houshold-fire', format=5, channels=2, frequency=48000, lengthbytes=1072192, lengthpcm=5259264, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.165152.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85e02314b8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d41f2008
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85e0229df0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='19 - Track19', format=5, channels=2, frequency=48000, lengthbytes=2748352, lengthpcm=8827520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.449463.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d41f2008
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d41f2528
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d415bfe0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='176563__deleted-user-3277771__houshold-fire', format=5, channels=2, frequency=48000, lengthbytes=1072192, lengthpcm=5259264, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.165152.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d41f2528
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d41f2858
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d4185030
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='19 - Track19', format=5, channels=2, frequency=48000, lengthbytes=2748352, lengthpcm=8827520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.449463.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d41f2858
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d4162928
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85e0274e60
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='176563__deleted-user-3277771__houshold-fire', format=5, channels=2, frequency=48000, lengthbytes=1072192, lengthpcm=5259264, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.165152.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d4162928
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d4162c58
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d4162f20
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='19 - Track19', format=5, channels=2, frequency=48000, lengthbytes=2748352, lengthpcm=8827520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.449463.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d4162c58
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d37a2df8
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d37a30c0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='176563__deleted-user-3277771__houshold-fire', format=5, channels=2, frequency=48000, lengthbytes=1072192, lengthpcm=5259264, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.165152.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d37a2df8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85c779fc38
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85df682e10
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='19 - Track19', format=5, channels=2, frequency=48000, lengthbytes=2748352, lengthpcm=8827520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.449463.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85c779fc38
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d44215d8
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d4422de0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='176563__deleted-user-3277771__houshold-fire', format=5, channels=2, frequency=48000, lengthbytes=1072192, lengthpcm=5259264, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.165152.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d44215d8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d440bbf8
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d4416c80
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='19 - Track19', format=5, channels=2, frequency=48000, lengthbytes=2748352, lengthpcm=8827520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.449463.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d440bbf8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d4416e28
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d44170f0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='176563__deleted-user-3277771__houshold-fire', format=5, channels=2, frequency=48000, lengthbytes=1072192, lengthpcm=5259264, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.165152.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d4416e28
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d4417298
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d4417560
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='19 - Track19', format=5, channels=2, frequency=48000, lengthbytes=2748352, lengthpcm=8827520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.449463.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d4417298
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85e2acf938
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85e2ab5810
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='176563__deleted-user-3277771__houshold-fire', format=5, channels=2, frequency=48000, lengthbytes=1072192, lengthpcm=5259264, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.165152.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85e2acf938
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85e2ac9828
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85e2ac7c60
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='19 - Track19', format=5, channels=2, frequency=48000, lengthbytes=2748352, lengthpcm=8827520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.449463.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85e2ac9828
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85e2a93fe8
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85e2ad0190
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='176563__deleted-user-3277771__houshold-fire', format=5, channels=2, frequency=48000, lengthbytes=1072192, lengthpcm=5259264, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.165152.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85e2a93fe8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85e0231a38
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85e0274af0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='19 - Track19', format=5, channels=2, frequency=48000, lengthbytes=2748352, lengthpcm=8827520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.449463.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85e0231a38
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85e0231bd8
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85e024b260
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='176563__deleted-user-3277771__houshold-fire', format=5, channels=2, frequency=48000, lengthbytes=1072192, lengthpcm=5259264, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.165152.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85e0231bd8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d46069f8
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d4604d10
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='19 - Track19', format=5, channels=2, frequency=48000, lengthbytes=2748352, lengthpcm=8827520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.449463.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d46069f8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d46159c8
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d4615c90
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='176563__deleted-user-3277771__houshold-fire', format=5, channels=2, frequency=48000, lengthbytes=1072192, lengthpcm=5259264, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.165152.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d46159c8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d4615e38
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85d4616100
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='19 - Track19', format=5, channels=2, frequency=48000, lengthbytes=2748352, lengthpcm=8827520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.449463.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d4615e38
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85c779bb08
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85df61ee10
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='176563__deleted-user-3277771__houshold-fire', format=5, channels=2, frequency=48000, lengthbytes=1072192, lengthpcm=5259264, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.165152.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85c779bb08
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85df6e7d08
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85df6a1d30
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='19 - Track19', format=5, channels=2, frequency=48000, lengthbytes=2748352, lengthpcm=8827520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.449463.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85df6e7d08
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85df6d6b98
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85df65e150
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='176563__deleted-user-3277771__houshold-fire', format=5, channels=2, frequency=48000, lengthbytes=1072192, lengthpcm=5259264, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.165152.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85df6d6b98
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85c77ff708
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85df651e90
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='19 - Track19', format=5, channels=2, frequency=48000, lengthbytes=2748352, lengthpcm=8827520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.449463.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85c77ff708
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85dc6e1828)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d40ff768)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85df6626e8)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85dc6111a8)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d41eb8e8)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d4170848)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85e2a2a128)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85e02434f8)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85e0238e38)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85e2aa3e58)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d41bdca8)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d41bde38)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85dc6a0328)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d41755e8)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d4175778)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85e2a30878)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d4175ca8)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d41602d8)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85e2aad938)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d4173df8)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d41f6e78)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85dc6abfc8)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d41f3168)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d41f32f8)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85e2ac0c08)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d41f3a18)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d4187488)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85e2a27608)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d416ce18)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d416cfa8)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85dc6f2ab8)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d416d2d8)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d41cd3e8)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85e2a153c8)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d4169c58)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d4169de8)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85e2af6398)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d416a508)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d41dde78)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85e2af6808)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d41de598)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d41f6858)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85e2af7fc8)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d416ba18)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d416bba8)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85e2af8438)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d416c2c8)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d416c458)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85e2af9bf8)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d418c068)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d41c6048)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85e2afa068)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d41cc7a8)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d41cc938)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85e2af3668)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d4168c28)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d4168db8)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85e2af3ad8)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d41888d8)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d4188a68)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85e2af0d78)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d41ee7f8)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d41ee988)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85e2af11e8)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85df69fee8)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85df6a0078)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85e2add418)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85df6fa868)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85df6fa9f8)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85e2add888)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85df6fb118)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85df6cdd98)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85e2ae08b8)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85df6ce4b8)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85df6ce648)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85e2ae0d28)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85df6ced68)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85df6ceef8)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85e2ae24e8)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85df6cf618)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85df6cf7a8)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85e2ae2958)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85e064e098)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85e0608cb8)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85e2ae4118)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85e060c548)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85e068c0b8)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85e2ae4588)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85e0674b98)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85e06c8878)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85e2ae7098)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85e06b2c08)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d375eb08)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85e2ae7508)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85df5de628)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85df59b1e8)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85e2ae9718)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85e064efb8)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85e0689ce8)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85e2ae9b88)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85e06e08c8)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85e065a878)
+[LOG] SystemI::createSound                     : filename = ../FMOD/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85d40ff768 : node = 0x7f85c779e3c0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85dc65bea8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85d40ff768
+[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SoundI::release                          :     274471__nick121087__dog-barking (0x7f85df64f2c8)
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 58084736
+[LOG] SystemI::createSoundInternal             :         exinfo->fileoffset         = 32640
+[LOG] SystemI::createSoundInternal             :         exinfo->numsubsounds       = 1
+[LOG] SoundI::release                          :         274471__nick121087__dog-barking (0x7f85e0274188)
+[LOG] SoundI::release                          :         274471__nick121087__dog-barking (0x7f85e0274318)
+[LOG] SystemI::createSoundInternal             :         exinfo->inclusionlist      = 0x7f85c779e4d0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='417386__klankbeeld__hors-bristling-crow-calling-170917-1223', format=5, channels=2, frequency=48000, lengthbytes=213568, lengthpcm=764194, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.428488.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85d40ff768
+[LOG] SoundI::release                          :  (0x7f85d378feb8)
+[LOG] SoundI::release                          :     Jumping_8 (0x7f85d37b74a8)
+[LOG] SoundI::release                          :  (0x7f85d3774b78)
+[LOG] SoundI::release                          :     Jumping_1 (0x7f85d3774ce8)
+[LOG] SoundI::release                          :  (0x7f85e06d7618)
+[LOG] SoundI::release                          :     Jumping_2 (0x7f85d3774858)
+[LOG] SoundI::release                          :  (0x7f85d37a4898)
+[LOG] SoundI::release                          :     Jumping_5 (0x7f85d376f528)
+[LOG] SoundI::release                          :  (0x7f85d3775008)
+[LOG] SoundI::release                          :     Jumping_9 (0x7f85d3775178)
+[LOG] SoundI::release                          :  (0x7f85e06530e8)
+[LOG] SoundI::release                          :     410174__leoni-fs__dogs-barking (0x7f85e065b848)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85e2ac9828)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85c77bb038)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85c77bb1c8)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85e2acf938)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85c77ba788)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85c77ba918)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85d4417298)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85c77fc588)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85c77ba068)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85d4416e28)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85c77fbcd8)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85c77fbe68)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85d440bbf8)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85c77fb428)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85c77fb5b8)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85d44215d8)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85c77fad78)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85c77faf08)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85c779fc38)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85c7745988)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85c7745b18)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85d37a2df8)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85c77450d8)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85c7745268)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85d4162c58)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85c77fa588)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85c77fa718)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85d4162928)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85c7726938)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85c7726ac8)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85d41f2858)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85c7726088)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85c7726218)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85d41f2528)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85c779e018)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85e027f128)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85d41f2008)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85c7784b98)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85c77d5a38)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85e02314b8)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85c77842e8)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85c7784478)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85c77ff708)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d3795738)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d37958c8)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85df6d6b98)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d3767878)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d37556a8)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85e2aa82e8)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85c77e89e8)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85c77e8b78)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85d4515908)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85c7754a88)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85c778d248)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85df6e7d08)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d3766fc8)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d3767158)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85c779bb08)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d3766718)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d37668a8)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85d4515498)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85e022ae48)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85e027ef88)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85d4515028)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85e022a598)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85e022a728)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85d4514898)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d37e9238)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d37e93c8)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85d4514428)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d37876d8)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85d3787868)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85d4615e38)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d37e6a88)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d37e6c18)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85d46159c8)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85e2acdf08)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85e2ace098)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85d450f3b8)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d3786e28)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d3786fb8)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85d3774588)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85e0274838)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85e0231898)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85d46069f8)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85d4248438)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85dc642978)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85e0231bd8)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85c77bca48)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85c77bcbd8)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85d3789578)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85c7744798)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85c77fe4e8)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85e06d68a8)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85dc635118)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85e2ad2158)
+[LOG] SoundI::release                          : 19 - Track19 (0x7f85e0231a38)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85c77bc198)
+[LOG] SoundI::release                          :     19 - Track19 (0x7f85c77bc328)
+[LOG] SoundI::release                          : 176563__deleted-user-3277771__houshold-fire (0x7f85e2a93fe8)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85c77bb8e8)
+[LOG] SoundI::release                          :     176563__deleted-user-3277771__houshold-fire (0x7f85c77bba78)
+[LOG] SoundI::release                          : village music.3 (0x7f85e2aedd08)
+[LOG] SoundI::release                          :     village music.3 (0x7f85df6b10c8)
+[LOG] SoundI::release                          :     village music.3 (0x7f85df6b1258)
+[LOG] SoundI::release                          : 417386__klankbeeld__hors-bristling-crow-calling-170917-1223 (0x7f85d40ff768)
+[LOG] SoundI::release                          :     417386__klankbeeld__hors-bristling-crow-calling-170917-1223 (0x7f85e0611c68)
+[LOG] SoundI::release                          :     417386__klankbeeld__hors-bristling-crow-calling-170917-1223 (0x7f85e068c0b8)
+[LOG] SoundI::release                          : 398980__inspectorj__ambience-day-wildlife-a (1) (0x7f85e2adbc58)
+[LOG] SoundI::release                          :     398980__inspectorj__ambience-day-wildlife-a (1) (0x7f85df6b1978)
+[LOG] SoundI::release                          :     398980__inspectorj__ambience-day-wildlife-a (1) (0x7f85df6b1b08)
+[LOG] SoundI::release                          :  (0x7f85d375afb8)
+[LOG] SoundI::release                          :     625330__ika-komura__dove-in-the-chimney (0x7f85d37dec48)
+[LOG] SoundI::release                          :  (0x7f85e06ee558)
+[LOG] SoundI::release                          :     271150__seth-m__titmouse-call (0x7f85df55d7e8)
+[LOG] SoundI::release                          :  (0x7f85e061fd58)
+[LOG] SoundI::release                          :     drown bubbles (0x7f85e062ec38)
+[LOG] SoundI::release                          :  (0x7f85e022efc8)
+[LOG] SoundI::release                          :     drown voice (0x7f85df6e2138)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.
